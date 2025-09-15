@@ -270,7 +270,7 @@ function CartPage() {
 /* -------- Main App -------- */
 export default function App() {
   return (
-    <Router basename="/thegreenhaven">
+    <Router basename="/botanica">
       <Header />
       <Routes>
         <Route path="/" element={<Landing />} />
