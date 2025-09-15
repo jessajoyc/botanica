@@ -1,6 +1,6 @@
 import React from "react";
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Routes,
   Route,
   Link,
@@ -270,7 +270,7 @@ function CartPage() {
 /* -------- Main App -------- */
 export default function App() {
   return (
-    <Router basename="/botanica">
+    <Router>
       <Header />
       <Routes>
         <Route path="/" element={<Landing />} />
